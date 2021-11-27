@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quan Ly Sinh Vien</title>
+</head>
+<body>
+<script type="text/javascript">
+    var studentlist = [
+        {
+            "name":"Tran Van A",
+            "age":"20",
+            "address":"Ha Noi",
+            "email":"student1@gmail.com",
+            "phone_number":"0912345678"
+        },
+        {
+            "name":"Tran Van B",
+            "age":"20",
+            "address":"Ha Noi",
+            "email":"student2@gmail.com",
+            "phone_number":"0912345678"
+        },
+        {
+            "name":"Tran Van C",
+            "age":"20",
+            "address":"Ha Noi",
+            "email":"student3@gmail.com",
+            "phone_number":"0912345678"
+        },
+        {
+            "name":"Tran Van D",
+            "age":"20",
+            "address":"Ha Noi",
+            "email":"student4@gmail.com",
+            "phone_number":"0912345678"
+        },
+        {
+            "name":"Tran Van E",
+            "age":"20",
+            "address":"Ha Noi",
+            "email":"student5@gmail.com",
+            "phone_number":"0912345678"
+        },
+        {
+            "name":"Tran Van F",
+            "age":"20",
+            "address":"Ha Noi",
+            "email":"student6@gmail.com",
+            "phone_number":"0912345678"
+        },
+        {
+            "name":"Tran Van G",
+            "age":"20",
+            "address":"Ha Noi",
+            "email":"student7@gmail.com",
+            "phone_number":"0912345678"
+        },
+        {
+            "name":"Tran Van H",
+            "age":"20",
+            "address":"Ha Noi",
+            "email":"student8@gmail.com",
+            "phone_number":"0912345678"
+        },
+        {
+            "name":"Tran Van J",
+            "age":"20",
+            "address":"Ha Noi",
+            "email":"student9@gmail.com",
+            "phone_number":"0912345678"
+        },
+        {
+            "name":"Tran Van K",
+            "age":"20",
+            "address":"Ha Noi",
+            "email":"student10@gmail.com",
+            "phone_number":"0912345678"
+        },
+        {
+            "name":"Tran Van A",
+            "age":"20",
+            "address":"Ha Noi",
+            "email":"student11@gmail.com",
+            "phone_number":"0912345678"
+        },
+        {
+            "name":"Tran Van A",
+            "age":"20",
+            "address":"Ha Noi",
+            "email":"student12@gmail.com",
+            "phone_number":"0912345678"
+        },
+        {
+            "name":"Tran Van A",
+            "age":"20",
+            "address":"Ha Noi",
+            "email":"student13@gmail.com",
+            "phone_number":"0912345678"
+        },
+        {
+            "name":"Tran Van A",
+            "age":"20",
+            "address":"Ha Noi",
+            "email":"student14@gmail.com",
+            "phone_number":"0912345678"
+        },
+        {
+            "name":"Tran Van A",
+            "age":"20",
+            "address":"Ha Noi",
+            "email":"student15@gmail.com",
+            "phone_number":"0912345678"
+        },
+        {
+            "name":"Tran Van A",
+            "age":"20",
+            "address":"Ha Noi",
+            "email":"student16@gmail.com",
+            "phone_number":"0912345678"
+        },  
+        {
+            "name":"Tran Van A",
+            "age":"20",
+            "address":"Ha Noi",
+            "email":"student17@gmail.com",
+            "phone_number":"0912345678"
+        },
+        {
+            "name":"Tran Van A",
+            "age":"20",
+            "address":"Ha Noi",
+            "email":"student18@gmail.com",
+            "phone_number":"0912345678"
+        },
+    ]
+    std19 = {
+        "name":"Tran Van A",
+        "age":"20",
+        "address":"Ha Noi",
+        "email":"student19@gmail.com",
+        "phone_number":"0912345678"
+    }
+    std20 = {
+        "name":"Tran Van P",
+        "age":"20",
+        "address":"Ha Noi",
+        "email":"student20@gmail.com",
+        "phone_number":"0912345678"
+    }
+    studentlist.push(std19,std20)
+</script>
+<table border ="1" cellpadding="5">
+	<tr>
+		<th>STT</th>
+		<th>Ho & Ten</th>
+		<th>Tuoi</th>
+		<th>Dia Chi</th>
+		<th>Email</th>
+	</tr>
+<script type="text/javascript">
+	var index = 0;
+	for(std of studentlist) {
+		document.write(`<tr>
+            <td>${++index}</td>
+		    <td>${std.name}</td>
+		    <td>${std.age}</td>
+		    <td>${std.address}</td>
+		    <td>${std.email}</td>
+			</tr>`)
+	}
+</script>
+</table>
+</body>
+</html>
